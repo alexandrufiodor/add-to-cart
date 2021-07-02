@@ -26,7 +26,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\React tests\ebs-fe-junior-master\node_modules\prettier" />
-    <property name="ts.external.directory.path" value="C:\React tests\ebs-fe-junior-master\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="C:\shop-test-main\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -118,7 +118,7 @@
       <workItem from="1622579479645" duration="179000" />
       <workItem from="1622579670606" duration="17113000" />
       <workItem from="1622704455416" duration="2916000" />
-      <workItem from="1625239409842" duration="1238000" />
+      <workItem from="1625239409842" duration="1908000" />
     </task>
     <servers />
   </component>

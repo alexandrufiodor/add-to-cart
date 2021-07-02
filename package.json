@@ -1,5 +1,5 @@
 {
-  "homepage": "https://alexandrufiodor.github.io/add-to-cart",
+  "homepage": "https://alexandrufiodor.github.io/add-to-cart/",
   "name": "ebs-fe-junior",
   "version": "0.1.0",
   "private": true,
@@ -28,7 +28,7 @@
     "serve:server": "node ./server",
     "build": "react-scripts build",
     "predeploy": "yarn run build",
-    "deploy": "gh-pages -b master -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app",
