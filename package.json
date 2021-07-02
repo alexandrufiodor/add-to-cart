@@ -1,0 +1,68 @@
+{
+  "homepage": "https://alexandrufiodor.github.io/shop-test",
+  "name": "ebs-fe-junior",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.9.0",
+    "@types/react-dom": "^16.9.0",
+    "@types/react-router-dom": "^5.1.7",
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fetch": "^1.1.0",
+    "husky": "^4.2.5",
+    "prettier": "^2.0.5",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.4",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "redux": "^4.1.0",
+    "redux-thunk": "^2.3.0",
+    "typescript": "~3.7.2"
+  },
+  "scripts": {
+    "serve:client": "react-scripts start",
+    "serve:server": "node ./server",
+    "build": "react-scripts build",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -b master -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app",
+    "rules": {
+      "react-hooks/exhaustive-deps": "off"
+    }
+  },
+  "prettier": {
+    "tabWidth": 2,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "all",
+    "printWidth": 120,
+    "jsxBracketSameLine": false,
+    "endOfLine": "lf"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npx prettier --write -c .prettierrc \"src/**/*.{ts,tsx,json,css,scss}\""
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.0"
+  }
+}
