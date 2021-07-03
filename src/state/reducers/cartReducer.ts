@@ -24,10 +24,9 @@ export const CartReducer = (state: CartStateType = initialState, action: CartAct
       } else {
         cart.push({ ...action.payload });
       }
-
       return {
         ...state,
-        cart: cart,
+        cart,
       };
     }
     case CART_ACTIONS_TYPE.REMOVE_FROM_CART: {
@@ -41,7 +40,7 @@ export const CartReducer = (state: CartStateType = initialState, action: CartAct
 
       return {
         ...state,
-        cart: cart,
+        cart,
       };
     }
     case CART_ACTIONS_TYPE.UPDATE_CART_QUANTITY: {
