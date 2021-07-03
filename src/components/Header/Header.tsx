@@ -10,7 +10,7 @@ export const Header = () => {
       <div>
         <Nav />
         <div>
-          <Route render={() => <Products />} path="/" />
+          <Route render={() => <Products />} path="/products" />
           <Route render={() => <Cart />} path="/cart/" />
         </div>
       </div>

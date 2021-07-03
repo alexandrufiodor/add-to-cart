@@ -6,7 +6,7 @@ export const Nav = () => {
   return (
     <nav className={s.nav}>
       <div className={s.navItem}>
-        <NavLink activeClassName={s.active} to="/">
+        <NavLink activeClassName={s.active} to="/products">
           All Products
         </NavLink>
       </div>
